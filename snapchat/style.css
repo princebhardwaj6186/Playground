@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 1em;
+    background-color: white;
+}
+
+nav ul li img{
+    height: 27px;
+    width: 27px;
+    border-color: black;
+    margin-left: 70px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 5px;
+    padding-right: 250px;
+    border-color: black;
+    font-weight: bold;
+}
+
+.header{
+    background-color: yellow;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.header h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.header div img{
+    height: 400px;
+    width: 300px;
+}
+
+.header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;    
+}
+
+.break{
+    display: block;
+}
+
+.header div article{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px 30px;
+    flex-direction: column;
+    margin: 30px;       
+}
+
+.header button{
+    text-decoration: none;
+    border-color:rgb(104, 94, 94);
+    text-align: center;
+    background-color: white;
+    font-weight: 100;
+    color: black;
+    font-size: 1em;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border-color: white;
+}
+
+#container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    padding-bottom: 0px;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#section ul{
+    list-style: none;
+}
+
+#section ul li{
+    margin: 1px 0;
+    font-weight: 50;
+    color: lightgray;
+}
+
+#section2{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0px 0px 10px 170px;
+    font-size: 1em;
+    font-weight: 50;
+}
+
+#section2 form *{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-right: 30px;
+    margin-top: 4px;
+}
+
+/*#footer ul a{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}*/
+
+/*#footer ul a li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}*/
+
+#footer div{ 
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+}
+
+#container2 div a{
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    text-decoration: none;
+    color: gray;
+    padding: 10px;
+    font-weight: initial;
+}
+
+#footer{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
