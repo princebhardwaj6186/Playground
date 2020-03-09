@@ -25,7 +25,7 @@ function changedirection(steps,direction){
 	
 	switch(direction){
 		case 'E':
-		temp = queen.position.Y+steps;
+		 queen.position.y = queen.position.Y+steps;
 	}
 	
 	switch(direction){
@@ -36,30 +36,30 @@ function changedirection(steps,direction){
 	switch(direction){
 		case 'NW':
 		queen.position.x = queen.position.x+steps;
-		queen.position.x = queen.position.Y-steps;
+		queen.position.y = queen.position.Y-steps;
 	}
 	
 	switch(direction){
 		case 'NE':
 		queen.position.x = queen.position.x-steps;
-		queen.position.x = queen.position.Y+steps;
+		queen.position.y = queen.position.Y+steps;
 	}
 	
 	switch(direction){
 		case 'SE':
 		queen.position.x = queen.position.x-steps;
-		queen.position.x = queen.position.Y+steps;
+		queen.position.y = queen.position.Y+steps;
 	}
 	
 	switch(direction){
 		case 'SW':
 		queen.position.x = queen.position.x+steps;
-		queen.position.x = queen.position.Y-steps;
+		queen.position.y = queen.position.Y-steps;
 	}
 	
 	switch(direction){
 		case 'W':
-		queen.position.x = queen.position.Y-steps;
+		queen.position.y = queen.position.Y-steps;
 	}
 	
 	default:
